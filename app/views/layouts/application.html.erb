@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>zeroc9</title> 
+   <meta charset="utf-8">
+    <meta name="description" content="Free reminder for geek lost in virtual space of
+      websites developing and hosting: HTML, CSS, JavaScript, Bootstrap, Ruby on Rails">
+    <meta name="keywords" content="Project start on Rails, Website developing, 
+      Webebsite hosting, HTML, CSS, JavaScript, Bootstrap, Ruby on Rails">
+    <meta name="author" content="Zvonimir Kolumbic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
